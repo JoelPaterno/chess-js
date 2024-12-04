@@ -1,12 +1,26 @@
+body {
+    text-align: center;
+}
+
 .chess-board-wrapper {
     margin: auto;
     display: grid;
-    max-width: 40rem;
-    max-height: 40rem;
-    height: 40rem;
+    max-width: 60vh;
+    max-height: 60vh;
+    height: 60vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border: solid black; 
+}
+
+.box {
+    height: auto;
+    width: auto;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
 }
 
 .white {
@@ -15,3 +29,4 @@
 .black {
     background-color: #444 !important;
 }
+

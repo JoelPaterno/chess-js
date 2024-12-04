@@ -8,72 +8,71 @@
   </head>
   <body>
     <h1>Chess</h1>
-    <h2>Play Chess</h2>
     <div class="chess-board-wrapper">
-        <div class="box1 white">One</div>
-        <div class="box2 black">Two</div>
-        <div class="box3 white">Three</div>
-        <div class="box4 black">Four</div>
-        <div class="box5 white">Five</div>
-        <div class="box6 black">Six</div>
-        <div class="box7 white">Seven</div>
-        <div class="box8 black">Eight</div>
-        <div class="box9 black">Nine</div>
-        <div class="box10 white">Ten</div>
-        <div class="box11 black">Eleven</div>
-        <div class="box12 white">Twelve</div>
-        <div class="box13 black">thriteen</div>
-        <div class="box14 white">fourteen</div>
-        <div class="box15 black">fifteen</div>
-        <div class="box16 white">sixteen</div>
-        <div class="box1 white">One</div>
-        <div class="box2 black">Two</div>
-        <div class="box3 white">Three</div>
-        <div class="box4 black">Four</div>
-        <div class="box5 white">Five</div>
-        <div class="box6 black">Six</div>
-        <div class="box7 white">Seven</div>
-        <div class="box8 black">Eight</div>
-        <div class="box9 black">Nine</div>
-        <div class="box10 white">Ten</div>
-        <div class="box11 black">Eleven</div>
-        <div class="box12 white">Twelve</div>
-        <div class="box13 black">thriteen</div>
-        <div class="box14 white">fourteen</div>
-        <div class="box15 black">fifteen</div>
-        <div class="box16 white">sixteen</div>
-        <div class="box1 white">One</div>
-        <div class="box2 black">Two</div>
-        <div class="box3 white">Three</div>
-        <div class="box4 black">Four</div>
-        <div class="box5 white">Five</div>
-        <div class="box6 black">Six</div>
-        <div class="box7 white">Seven</div>
-        <div class="box8 black">Eight</div>
-        <div class="box9 black">Nine</div>
-        <div class="box10 white">Ten</div>
-        <div class="box11 black">Eleven</div>
-        <div class="box12 white">Twelve</div>
-        <div class="box13 black">thriteen</div>
-        <div class="box14 white">fourteen</div>
-        <div class="box15 black">fifteen</div>
-        <div class="box16 white">sixteen</div>
-        <div class="box1 white">One</div>
-        <div class="box2 black">Two</div>
-        <div class="box3 white">Three</div>
-        <div class="box4 black">Four</div>
-        <div class="box5 white">Five</div>
-        <div class="box6 black">Six</div>
-        <div class="box7 white">Seven</div>
-        <div class="box8 black">Eight</div>
-        <div class="box9 black">Nine</div>
-        <div class="box10 white">Ten</div>
-        <div class="box11 black">Eleven</div>
-        <div class="box12 white">Twelve</div>
-        <div class="box13 black">thriteen</div>
-        <div class="box14 white">fourteen</div>
-        <div class="box15 black">fifteen</div>
-        <div class="box16 white">sixteen</div>
+        <div class="box white" id="div" ondrop="drop(event);" ondragover="allowDrop(event);"><img class="piece" id="drag1"src="static/pieces/rook-b.svg" ondragstart="drag(event);" draggable="true"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/bishop-b.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/knight-b.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/queen-b.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/king-b.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/knight-b.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/bishop-b.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/rook-b.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/pawn-b.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/pawn-b.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/pawn-b.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/pawn-b.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/pawn-b.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/pawn-b.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/pawn-b.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/pawn-b.svg"/></div>
+        <div class="box white" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box white"><img class="piece" src="static/pieces/pawn-w.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/pawn-w.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/pawn-w.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/pawn-w.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/pawn-w.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/pawn-w.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/pawn-w.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/pawn-w.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/rook-w.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/bishop-w.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/knight-w.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/queen-w.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/king-w.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/knight-w.svg"/></div>
+        <div class="box black"><img class="piece" src="static/pieces/bishop-w.svg"/></div>
+        <div class="box white"><img class="piece" src="static/pieces/rook-w.svg"/></div>
     </div>
     <script src="static/index.js"></script>
   </body>
