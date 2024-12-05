@@ -2,6 +2,10 @@ body {
     text-align: center;
 }
 
+button {
+    margin-bottom: 2rem;
+}
+
 .chess-board-wrapper {
     margin: auto;
     display: grid;
