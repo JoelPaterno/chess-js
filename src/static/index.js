@@ -4,16 +4,19 @@ var boxes = document.getElementsByClassName("box")
 function clearBoard() {
     for (const i in boxes) {
         boxes[i].innerHTML = "";
-        console.log(boxes[i].innerHTML);
     }
 }
 
 function setPlayerWhite() {
+    for (const i in boxes) {
 
+    }
 }
 
 function setPlayerBlack() {
-    
+    for (const i in boxes) {
+
+    }
 }
 
 resetButton.addEventListener("click", (event) => {
