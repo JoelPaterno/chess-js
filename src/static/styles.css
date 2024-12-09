@@ -1,3 +1,7 @@
+* {
+    outline: 2px solid red;
+}
+
 body {
     text-align: center;
 }
@@ -15,6 +19,13 @@ button {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border: solid black; 
+}
+
+.hor-label {
+    margin: auto;
+    max-width: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .box {
