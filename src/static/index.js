@@ -79,17 +79,3 @@ function drop(ev) {
     console.log(data + " moved to " + ev.target.id);
 }
 
-/*
-function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    //remove img from div add to drops
-    const targetBlock = ev.target.parentElement;
-    const droppedPeice = document.getElementById(data);
-    console.log(droppedPeice);
-    //ev.target.remove();
-    targetBlock.appendChild(droppedPeice);
-    console.log(data + " took " + ev.target.id);
-}
-*/
-
