@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 2px solid red;
-}
+} */
 
 body {
     text-align: center;
@@ -26,6 +26,21 @@ button {
     max-width: 60vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-weight: bolder;
+}
+
+.vert-label {
+    display: grid;
+    max-height: 60vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    top: -10px;
+    margin: 0 10px;
+}
+
+.vert-div {
+    display: inline-block;
+    font-weight: bolder;
 }
 
 .box {
