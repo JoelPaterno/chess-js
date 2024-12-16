@@ -65,17 +65,20 @@ function drop(ev) {
     const dataElement = document.getElementById(data);
     //check if target is occupied
     const targetBlock = ev.target.parentElement;
-    if (targetBlock.classList.contains("box") && dataElement != null) {
-        console.log("dragged to an occupied block. target: " + targetBlock.classList[0] + " -- dragged element: " + dataElement.src);
-        for (const el of targetBlock.children) {
-            console.log(el.id + " removed");
-            el.remove();
+
+    if (targetBlock) {
+        if (targetBlock.classList.contains("box")) {
+            console.log("dragged to an occupied block. target: " + targetBlock.classList[0] + " -- dragged element: " + dataElement.src);
+            for (const el of targetBlock.children) {
+                console.log(el.id + " removed");
+                el.remove();
+            };
+            targetBlock.appendChild(dataElement);
+        } else {
+            console.log("dragged to a free block");
+            ev.target.appendChild(dataElement);
         };
-        targetBlock.appendChild(dataElement);
-    } else {
-        console.log("dragged to a free block");
-        ev.target.appendChild(dataElement);
-    };
-    console.log(data + " moved to " + ev.target.id);
+        console.log(data + " moved to " + ev.target.id);
+    }
 }
 
