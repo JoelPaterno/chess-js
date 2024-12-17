@@ -82,3 +82,12 @@ function drop(ev) {
     }
 }
 
+module.exports = {
+    clearBoard,
+    setPlayerWhite,
+    setPlayerBlack,
+    allowDrop,
+    drag,
+    drop
+};
+
