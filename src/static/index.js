@@ -2,7 +2,7 @@ const resetButton = document.getElementsByClassName("reset-button")[0];
 var boxes = document.getElementsByClassName("box");
 const rank_pieces = ["rook", "knight", "bishop", "queen", "king", "bishop", "knight", "rook"];
 var board_state = "";
-onload = (event) => {setPlayerWhite()};
+//onload = (event) => {setPlayerWhite()};
 
 function clearBoard() {
     for (const i in boxes) {

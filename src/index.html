@@ -10,117 +10,88 @@
   <body>
     <h1>Chess</h1>
     <button class="reset-button" type="button">Reset Board</button>
-    <div class="hor-label">
-      <p>a</p>
-      <p>b</p>
-      <p>c</p>
-      <p>d</p>
-      <p>e</p>
-      <p>f</p>
-      <p>g</p>
-      <p>h</p>
-    </div>
-    <div class="vert-div">
-      <div class="vert-label">
-        <p>8</p>
-        <p>7</p>
-        <p>6</p>
-        <p>5</p>
-        <p>4</p>
-        <p>3</p>
-        <p>2</p>
-        <p>1</p>
-      </div>
-    </div>
-    <div class="vert-div">
-      <div class="chess-board-wrapper">
-          <div class="box white" id="a8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="b8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="c8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="d8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="e8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="f8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="g8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="h8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="a7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="b7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="c7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="d7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="e7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="f7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="g7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="h7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="a6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="b6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="c6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="d6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="e6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="f6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="g6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="h6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="a5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="b5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="c5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="d5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="e5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="f5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="g5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="h5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="a4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="b4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="c4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="d4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="e4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="f4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="g4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="h4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="a3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="b3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="c3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="d3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="e3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="f3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="g3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="h3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="a2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="b2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="c2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="d2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="e2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="f2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="g2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="h2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="a1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="b1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="c1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="d1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="e1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="f1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box black" id="g1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-          <div class="box white" id="h1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
-      </div>
-    </div>
-    <div class="vert-div">  
-      <div class="vert-label">
-        <p>8</p>
-        <p>7</p>
-        <p>6</p>
-        <p>5</p>
-        <p>4</p>
-        <p>3</p>
-        <p>2</p>
-        <p>1</p>
-      </div>
-    </div>
-    <div class="hor-label">
-      <p>a</p>
-      <p>b</p>
-      <p>c</p>
-      <p>d</p>
-      <p>e</p>
-      <p>f</p>
-      <p>g</p>
-      <p>h</p>
+    <div class="chess-board-wrapper">
+        <div class="box"></div>
+        <div class="box">a</div>
+        <div class="box">b</div>
+        <div class="box">c</div>
+        <div class="box">d</div>
+        <div class="box">e</div>
+        <div class="box">f</div>
+        <div class="box">g</div>
+        <div class="box">h</div>
+        <div class="box">1</div>
+        <div class="box white" id="a8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="b8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="c8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="d8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="e8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="f8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="g8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="h8" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box">2</div>
+        <div class="box black" id="a7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="b7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="c7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="d7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="e7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="f7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="g7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="h7" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box">3</div>
+        <div class="box white" id="a6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="b6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="c6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="d6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="e6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="f6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="g6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="h6" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box">4</div>
+        <div class="box black" id="a5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="b5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="c5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="d5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="e5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="f5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="g5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="h5" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box">5</div>
+        <div class="box white" id="a4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="b4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="c4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="d4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="e4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="f4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="g4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="h4" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box">6</div>
+        <div class="box black" id="a3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="b3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="c3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="d3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="e3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="f3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="g3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="h3" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box">7</div>
+        <div class="box white" id="a2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="b2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="c2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="d2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="e2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="f2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="g2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="h2" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box">8</div>
+        <div class="box black" id="a1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="b1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="c1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="d1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="e1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="f1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box black" id="g1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
+        <div class="box white" id="h1" ondrop="drop(event);" ondragover="allowDrop(event);"></div>
     </div>
     <script src="static/index.js"></script>
   </body>

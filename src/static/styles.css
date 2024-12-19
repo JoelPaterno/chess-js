@@ -16,31 +16,8 @@ button {
     max-width: 60vh;
     max-height: 60vh;
     height: 60vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    border: solid black; 
-}
-
-.hor-label {
-    margin: auto;
-    max-width: 60vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    font-weight: bolder;
-}
-
-.vert-label {
-    display: grid;
-    max-height: 60vh;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    position: relative;
-    top: -10px;
-    margin: 0 10px;
-}
-
-.vert-div {
-    display: inline-block;
-    font-weight: bolder;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .box {
@@ -55,9 +32,11 @@ button {
 }
 
 .white {
-    background-color: blanchedalmond !important;
+    background-color: blanchedalmond;
+    border: solid 2px #444;
+    
 }
 .black {
-    background-color: #444 !important;
+    background-color: #444;
 }
 
